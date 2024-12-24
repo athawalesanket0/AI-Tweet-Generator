@@ -28,7 +28,6 @@ const personalities = [
   }
 ];
 
-// For development without OpenAI API
 const generateMockTweet = () => {
   const personality = personalities[Math.floor(Math.random() * personalities.length)];
   const topics = [

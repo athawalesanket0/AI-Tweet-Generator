@@ -36,7 +36,6 @@ const WestXInterface = () => {
 
     return (
         <div className="flex min-h-screen bg-white">
-            {/* Left Sidebar - Increased width to 280px */}
             <div className="w-[280px] border-r border-gray-200 p-4 fixed h-full bg-white">
                 <div className="mb-4">
                     <img src={user_img} alt="WestX Logo" className="rounded-full h-12 w-12" />
@@ -70,7 +69,6 @@ const WestXInterface = () => {
                 </nav>
             </div>
 
-            {/* Main Content - Adjusted margins and padding */}
             <div className="ml-[280px] mr-[320px] flex-1 min-h-screen">
                 <div className="border-b border-gray-200 p-4 bg-white sticky top-0 z-10 flex justify-between items-center">
                     <h1 className="text-xl font-bold">Home</h1>
@@ -134,7 +132,6 @@ const WestXInterface = () => {
                 )}
             </div>
 
-            {/* Right Sidebar - Increased width to 320px */}
             <div className="w-[320px] p-4 border-l border-gray-200 fixed right-0 h-full bg-white overflow-y-auto">
                 <div className="bg-gray-50 rounded-xl p-4">
                     <h2 className="text-xl font-bold mb-4">Who to follow</h2>
